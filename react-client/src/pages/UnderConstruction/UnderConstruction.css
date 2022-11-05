@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+.glitch {
+  width: 40vw;
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.3s;
+  letter-spacing: 1px;
+  overflow: hidden;
+  border: 2px solid;
+  border: 0px;
+  background: yellow;
+  color: #050801;
+  box-shadow: 0 0 5px yellow,
+              0 0 25px yellow,
+              0 0 50px yellow,
+              0 0 200px yellow;
+   -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+.glitch-font {
+  text-transform: uppercase;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  padding: 5px
+  
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="glitch-font"] {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="glitch"] {
+    width: 80vw;
+  }
+}
+

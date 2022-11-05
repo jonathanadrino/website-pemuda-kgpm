@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+.nav-item {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    transition: 0.3s;
+    border-radius: 6px;
+    font-family:'roboto' ;
+}
+
+.nav-item:hover {
+    background-color: rgba(15, 111, 255, 0.815);
+    color: white;
+}
+
+
+
+.nav-title {
+    text-decoration: none;
+    color: black;
+    font-family:'roboto' ;
+    font-size: 20px;
+    padding-bottom: 1vh;
+}
+
+.nav-title:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #131313;
+    border-radius: 3px;
+}
+
+.admin-item {
+    padding: 10px;
+    color: white;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.admin-item:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(50px);
+    border-radius: 20px;
+    border:2px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.navbar__link {
+    margin: 10px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: .3em;
+    text-indent: .3em;
+    color: #181818;
+    border-bottom: 3px solid transparent;
+    transition: 0.2s;
+  }
+  
+  .navbar__link:hover {
+    padding-bottom: 7px;
+    border-bottom: 4px solid black;
+    color: #181818;
+  }
+
+.navbar__link--active {
+    color: #181818;
+    border-bottom: 3px solid #29b6f6;
+    transition: border-bottom .5s ease-in-out;
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="nav-title"] {
+      font-size: 16px;
+    }
+  }
+
+.dropdown {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: .3em;
+  text-indent: .3em;
+  color: #000000;
+  border-bottom: 3px solid transparent;
+  transition: 0.2s;
+  position: relative;
+  padding: 0px;
+  border-radius: 0px;
+  margin-block: 0.2vw;
+  margin-inline: 1.5vh;
+}
+
+
+.dropdown:hover {
+  background-color: transparent;
+  padding-bottom: 7px;
+  border-bottom: 4px solid black;
+  color: #181818;
+}

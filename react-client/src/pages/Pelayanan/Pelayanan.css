@@ -1,0 +1,5 @@
+.pelayanan-card:hover {
+    transition: 500ms;
+    box-shadow: 0px 7px;
+    cursor: pointer;
+}

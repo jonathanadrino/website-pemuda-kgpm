@@ -1,0 +1,53 @@
+.fb {
+    background: #0000cc;
+    color: #ffffff;
+    box-shadow: 0 0 5px #0000cc,
+                0 0 25px #0000cc,
+                0 0 50px #0000cc,
+                0 0 200px #0000cc;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+.ig {
+    background: #ff0066;
+    color: #fff;
+    box-shadow: 0 0 5px #ff0066,
+                0 0 25px #ff0066,
+                0 0 50px #ff0066,
+                0 0 200px #ff0066;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+.yt {
+    background: #e62e00;
+    color: #000000;
+    box-shadow: 0 0 5px #e62e00,
+                0 0 25px #e62e00,
+                0 0 50px #e62e00,
+                0 0 200px #e62e00;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+.footer-btn{
+    padding: 5px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    overflow: hidden;
+    border: 2px solid;
+    border-color: #fff;
+   
+}
+
+.footer-btn:hover {
+    border: 0px;
+    background: #bfff00;
+    color: #050801;
+    box-shadow: 0 0 5px #bfff00,
+                0 0 25px #bfff00,
+                0 0 50px #bfff00,
+                0 0 200px #bfff00;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
